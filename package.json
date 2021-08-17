@@ -1,0 +1,17 @@
+{
+  "name": "mstdlib",
+  "version": "1.0.0",
+  "description": "Mike's javascript standard library",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Ball",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.50.0"
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
