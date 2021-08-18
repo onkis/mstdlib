@@ -1,3 +1,1 @@
-const pg = require('pg');
-
-module.exports.pg = pg;
+module.exports.pg = require('pg');
