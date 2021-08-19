@@ -20,14 +20,14 @@ module.exports = {
     //   "tls": false,
     //   "url": false,
     //   "assert": false,
-   //    "pg-native": false,
+       "pg-native": false,
     //   "stream": false
      }
   },
   optimization: {
-    minimize: false
-  },
-  plugins: [new webpack.IgnorePlugin(/\.\/native/, /\/pg\//)]
+    minimize: true
+  }//,
+ // plugins: [new webpack.IgnorePlugin(/\.\/native/, /\/pg\//)]
 
 
 
